@@ -24,3 +24,12 @@ body {
 .snowflake:hover {
 	cursor: default;
 }
+
+img {
+	display: block;
+	margin: auto;
+	width: 30%;
+	margin-top: 2%;
+	margin-left: 20%;
+	min-width: 170px;
+}
