@@ -28,8 +28,18 @@ body {
 img {
 	display: block;
 	margin: auto;
-	width: 30%;
-	margin-top: 2%;
+	width: 100%;
+	margin-top: 10%;
 	margin-left: 20%;
 	min-width: 170px;
 }
+
+.text {
+	margin: 5%;
+	margin-top: 50%;
+	color: white;
+	font-size: 35px;
+	font-family: 'Give You Glory', cursive;
+}
+
+
