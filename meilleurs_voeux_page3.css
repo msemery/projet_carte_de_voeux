@@ -2,6 +2,9 @@ img {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 video {
@@ -11,11 +14,8 @@ video {
 
 @keyframes anim {
     from {}
+    60% {transform: none;}
     to {transform: translate3d(0, -100%, 0); }
-}.scroll {
-    animation-name: anim;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 }
 
 body {
