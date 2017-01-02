@@ -8,3 +8,16 @@ video {
 	width: 100vw;
 	height: 100vh;
 }
+
+@keyframes anim {
+    from {}
+    to {transform: translate3d(0, -100%, 0); }
+}.scroll {
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+body {
+	cursor: pointer;
+}

@@ -8,18 +8,20 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
   </head>
   <body>
-  	<img src="meilleurvoeux.png">
+  	<img id="image" src="meilleurvoeux.png">
   	<video width="720" height="360" autoplay>
   		<source src="Pomeranian Puppies cute pet pom poms cutiest pomeranians Dwarf Spitz puppy compilation Zwergspitz.mp4" type="video/mp4">
   		<source src="movie.ogg" type="video/ogg">
 Your browser does not support the video tag.
 		</video> 
-		<script>
-			$(document).ready(function(){
-    	$("#image").on("click", function(){
-      $("#image").fadeOut(1000)
-  	  });
-			});
-		</script>
+		
+		
+		
+		<script>$(document).ready(function(){
+    $("#image").on("click", function(){
+        $("#image").addClass("scroll")
+    });
+});
+</script>
   </body>
 </html>
